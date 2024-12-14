@@ -8,6 +8,10 @@ body{
 }
 
 @media(max-width: 1470px){
+    body{
+        padding: 0;
+    }
+
     .title-header{
         margin: 50px 100px;
     }
@@ -124,5 +128,135 @@ body{
     .desc-4{
         width: 900px;
         margin-left: 50px;
+    }
+
+    /* section -5 */
+
+    .container-5 img{
+        width: 300px;
+        height: 300px;
+        border-radius: 200px;
+        object-fit: cover;
+    }
+    .big-container-5{
+        display: flex;
+        justify-content: center;
+        color: #156669;
+        gap: 200px;
+        margin-top: 150px;
+    }
+    .title-5 h1{
+        color: #156669;
+        font-size: 60px;
+    }
+    .title-5{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .container-5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* section - 6 we skipped this section because it is the same as 5*/
+
+    /* section - 7*/
+
+    .title-7 h1{
+        font-size: 60px;
+        color: #156669;
+    }
+    .title-7{
+        width: 1000px;
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+    .big-container-7{
+        margin-left: 50px;
+    }
+    .container-7{
+        width: 600px;
+        margin-top: 70px;
+    }
+    .container-7 h1{
+        color: #156669;
+    }
+    .image-7 img{
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 50px;
+    }
+    .image-7{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        margin-top: -500px;
+        margin-right: 80px;
+    }
+
+    /* section - 8 */
+
+    .section-8{
+        margin-top: 100px;
+        background:linear-gradient(to right , #a45b9a , #156669);
+    }
+    .title-8{
+        color: white;
+        font-size: 60px;
+        padding: 50px 50px;
+    }
+    .big-container-8{
+        display: flex;
+        justify-content: center;
+        color: white;
+        gap: 80px;
+        padding-bottom: 150px;
+    }
+    .container-8{
+        width: 400px;
+        text-align: center;
+    }
+
+    /* footer */
+
+    footer{
+        margin-top: 150px;
+    }
+    .title-foot{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .desc-foot h1{
+        color: #156669;
+    }
+    .desc-foot{
+        margin:100px 50px;
+    }
+    .desc-foot-2{
+        margin-left: 1000px;
+        margin-top: -280px;
+    }
+    .desc-foot-2 h1{
+        color: #156669;
+    }
+    .desc-foot-3{
+        margin: 100px 50px;
+        text-align: center;
+    }
+    .desc-foot-3 button{
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        color: #156669;
+        font-family:  "Krona One", sans-serif;
+    }
+    .desc-foot-3 h1{
+        color: #156669;
     }
 }
