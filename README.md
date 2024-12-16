@@ -3,7 +3,7 @@
 **S-S** This is a simple layout of a website for a beauty salon and similar services.
 
 ## 🚀 [View Live Website](https://Ulyk04.github.io/SPRIT)  
-(https://ulyk04.github.io/S-S/)
+https://ulyk04.github.io/S-S/
 
 ---
 
